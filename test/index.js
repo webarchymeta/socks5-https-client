@@ -14,7 +14,7 @@
 var assert = require('assert');
 var net = require('net');
 var request = require('request');
-var socks = require('node-socks/socks.js');
+var socks = require('socks5-client/socks.js');
 var https = require('../');
 var Agent = require('../lib/Agent');
 
